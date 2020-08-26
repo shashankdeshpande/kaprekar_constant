@@ -6,7 +6,6 @@ with open("README.md", "r") as f:
 setup(
     name='kaprekar_constant',  
     version='0.0.1',
-    scripts=['main.py'] ,
     author="Shashank Deshpande",
     author_email="shashankdeshpande18@gmail.com",
     description="Kaprekar's Constant",
