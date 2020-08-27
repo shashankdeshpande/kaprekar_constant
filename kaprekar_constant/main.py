@@ -21,7 +21,7 @@ def kaprekar_routine(n: int) -> object:
         desc = int("".join(sorted(n_str, reverse=True)))
         n = desc - asc
         if n != prev_n:
-            steps.append(f"{desc} - {asc} = {n}")
+            steps.append(f"{pad_leading_zeros(desc)} - {pad_leading_zeros(asc)} = {pad_leading_zeros(n)}")
 
     constant = n
     step_count = len(steps)
