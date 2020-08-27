@@ -37,6 +37,6 @@ pip install git+https://github.com/shashankdeshpande/kaprekar_constant.git
 6174
 ```
 ## References
- - https://mathworld.wolfram.com/KaprekarRoutine.html
- - https://plus.maths.org/content/mysterious-number-6174
- - https://en.wikipedia.org/wiki/6174_(number)
+- https://en.wikipedia.org/wiki/6174_(number)
+- https://mathworld.wolfram.com/KaprekarRoutine.html
+- https://plus.maths.org/content/mysterious-number-6174
