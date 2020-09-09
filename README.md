@@ -6,23 +6,23 @@
 - Go back to step 2 and repeat
 
 This process is called Kaprekar's routine. The routine states that you'll always reach number 6174 in at most 7 iterations and once you reach 6174, the process will continue generating the same number. How cool is that?
-## Installation
+## [Installation](#installation)
 Install directly from the GitHub repository
 ```bash
 pip install git+https://github.com/shashankdeshpande/kaprekar_constant.git 
 ```
-## Usage
-#### Import package:
+## [Usage](#usage)
+#### [Import package](#import):
 ```python
 >>> import kaprekar_constant as kc
 ```
-#### Perform Kaprekar Routine:
+#### [Perform Kaprekar Routine](#k_routine):
 ```python
 >>> obj = kc.kaprekar_routine(1913)
 >>> obj
 <kaprekar_constant.object.Kaprekar at 0x7f1ae2f085c0>
 ```
-#### Check results:
+#### [Check results](#check):
 ```python
 >>> obj.steps
 ['9311 - 1139 = 8172',
@@ -36,7 +36,7 @@ pip install git+https://github.com/shashankdeshpande/kaprekar_constant.git
 >>> obj.constant
 6174
 ```
-## References
+## [References](#references)
 - https://en.wikipedia.org/wiki/6174_(number)
 - https://mathworld.wolfram.com/KaprekarRoutine.html
 - https://plus.maths.org/content/mysterious-number-6174
